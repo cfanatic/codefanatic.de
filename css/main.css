@@ -223,8 +223,6 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
     height: 100vh;
 }
 header.masthead .intro-text .intro-lead-in {
