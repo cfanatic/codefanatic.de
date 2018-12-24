@@ -257,13 +257,13 @@ header.masthead .intro-text .intro-heading {
 header.masthead .intro-text .intro-lead-in {
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
-    word-spacing: 3px;
+    padding: 25px;
 }
 
 }
@@ -460,6 +460,18 @@ section#projects .grid figure figcaption {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
     color: white;
+}
+
+@media (max-width: 480px) {
+
+section#projects .grid figure figcaption {
+    padding: 1.5em;
+}
+
+section#projects .grid figure figcaption .icons {
+    display: none;
+}
+
 }
 
 section#projects .grid figure figcaption::before,
