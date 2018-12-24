@@ -275,6 +275,14 @@ section#education .time {
     margin-bottom: 20px;
     font-size: 15px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+section#education .title {
+    margin-top: 10px;
+}
+section#education .time {
+    margin-bottom: 10px;
+}
+}
 
 section#education .card {
     width: 90%;
