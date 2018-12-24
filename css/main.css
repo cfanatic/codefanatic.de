@@ -43,7 +43,17 @@ img::-moz-selection {
 }
 
 section {
+    padding: 150px 0;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 480px) {
+
+section {
     padding: 100px 0;
+    padding-bottom: 100px;
+}
+
 }
 
 section h2.section-heading {
@@ -59,13 +69,6 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Montserrat", sans-serif;
-}
-
-@media (min-width: 768px) {
-    section {
-        padding: 150px 0;
-        padding-bottom: 200px;
-  }
 }
 
 .text-primary {
@@ -182,32 +185,38 @@ nav.navbar-hover ul li a:hover:after {
     color: #367bfe;
 }
 
-@media (min-width: 992px) {
-    #navigation {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
-        border: none;
-        background-color: transparent;
-    }
-    #navigation .navbar-brand {
-        font-size: 1.75em;
-        -webkit-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-    #navigation .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important;
-    }
-    #navigation.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #212529;
-    }
-    #navigation.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-    }
+@media (min-width: 768px) {
+
+#navigation {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+}
+
+#navigation .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#navigation .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+}
+
+#navigation.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+}
+
+#navigation.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+}
+
 }
 
 /* ------------------------------------------------------------------- */
@@ -225,6 +234,7 @@ header.masthead {
 header.masthead .intro-text {
     height: 100vh;
 }
+
 header.masthead .intro-text .intro-lead-in {
     font-size: 80px;
     font-weight: 500;
@@ -232,24 +242,30 @@ header.masthead .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Rubik", sans-serif;
 }
+
 header.masthead .intro-text .intro-heading {
-    font-size: 63px;
+    font-size: 64px;
     font-weight: 500;
     line-height: 75px;
     padding: 20px;
     word-spacing: 5px;
     font-family: "Montserrat", sans-serif;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (max-width: 480px) {
+
 header.masthead .intro-text .intro-lead-in {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
+    margin-bottom: 8px;
 }
+
 header.masthead .intro-text .intro-heading {
     font-size: 42px;
     font-weight: 700;
-    word-spacing: 2px;
+    word-spacing: 3px;
 }
+
 }
 
 /* ------------------------------------------------------------------- */
@@ -275,13 +291,17 @@ section#education .time {
     margin-bottom: 20px;
     font-size: 15px;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (max-width: 480px) {
+
 section#education .title {
     margin-top: 10px;
 }
+
 section#education .time {
     margin-bottom: 10px;
 }
+
 }
 
 section#education .card {
@@ -652,7 +672,7 @@ footer ul.social-buttons .social-media {
 
 /* ------------------------------------------------------------------- */
 
-@media (min-width: 480px) {
+@media (min-width: 481px) {
 
 .bg-image-education {
     background-image: url("../img/education-bg.jpg"); 
