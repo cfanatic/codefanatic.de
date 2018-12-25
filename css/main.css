@@ -255,15 +255,15 @@ header.masthead .intro-text .intro-heading {
 @media (max-width: 480px) {
 
 header.masthead .intro-text .intro-lead-in {
-    font-size: 60px;
+    font-size: 68px;
     font-weight: 700;
     margin-bottom: 2px;
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
-    padding: 25px;
+    padding: 40px;
 }
 
 }
@@ -684,7 +684,7 @@ footer ul.social-buttons .social-media {
 
 /* ------------------------------------------------------------------- */
 
-@media (min-width: 481px) {
+@media (min-width: 768px) {
 
 .bg-image-education {
     background-image: url("../img/education-bg.jpg"); 
