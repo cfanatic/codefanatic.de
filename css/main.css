@@ -286,6 +286,27 @@ header.masthead .intro-text .intro-heading {
 
 /* ------------------------------------------------------------------- */
 
+section#about {
+    padding: 200px 0;
+}
+
+section#about .text {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #366cfe;
+}
+
+@media (max-width: 767px) {
+
+section#about {
+    padding: 100px 0;
+}
+    
+}
+
+/* ------------------------------------------------------------------- */
+
 @media (max-width: 767px) {
 
 section#education .education-bonn {
@@ -821,7 +842,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-education {
     background-image: url("../img/education-bg.jpg");  
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -830,7 +851,7 @@ footer ul.social-buttons .social-media {
     
 .bg-image-experience {
     background-image: url("../img/experience-bg.jpg");  
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -839,7 +860,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-skills {
     background-image: url("../img/skills-bg.jpg"); 
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -848,7 +869,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-projects {
     background-image: url("../img/projects-bg.jpg"); 
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -857,7 +878,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-contact {
     background-image: url("../img/contact-bg.jpg");  
-    min-height: 500px; 
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
