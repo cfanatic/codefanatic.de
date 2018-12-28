@@ -817,7 +817,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-education {
     background-image: url("../img/education-bg.jpg");  
-    min-height: 550px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -826,7 +826,7 @@ footer ul.social-buttons .social-media {
     
 .bg-image-experience {
     background-image: url("../img/experience-bg.jpg");  
-    min-height: 550px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -835,8 +835,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-skills {
     background-image: url("../img/skills-bg.jpg"); 
-    min-width: 400px;
-    min-height: 550px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -845,8 +844,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-projects {
     background-image: url("../img/projects-bg.jpg"); 
-    min-width: 400px;
-    min-height: 550px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -855,7 +853,7 @@ footer ul.social-buttons .social-media {
 
 .bg-image-contact {
     background-image: url("../img/contact-bg.jpg");  
-    min-height: 550px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
