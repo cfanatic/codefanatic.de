@@ -336,6 +336,10 @@ section#education .list-group {
     padding-bottom: 14px;
 }
 
+section#education .item-header {
+    font-weight: 700;
+}
+
 section#education .item-desc {
     font-size: 15px;
     margin-bottom: -14px;
