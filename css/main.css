@@ -182,7 +182,7 @@ nav.navbar-hover ul li a:hover:after {
 }
 
 .navbar-active .navbar-nav .nav-item .nav-link.active {
-    color: #367bfe;
+    color: #366cfe;
 }
 
 @media (min-width: 768px) {
@@ -286,6 +286,14 @@ header.masthead .intro-text .intro-heading {
 
 /* ------------------------------------------------------------------- */
 
+@media (max-width: 767px) {
+
+section#education .education-bonn {
+    padding-bottom: 10%;
+}
+    
+}
+
 section#education .img-bonn {
     width: 87%;
 }
@@ -305,7 +313,6 @@ section#education .title {
 section#education .time {
     color: #6a6a6a;
     margin-bottom: 20px;
-    font-size: 15px;
 }
 
 @media (max-width: 480px) {
@@ -338,6 +345,112 @@ section#education .borderless {
     color: #6a6a6a;   
     border: 0 none;
     background-color: transparent;
+}
+
+/* ------------------------------------------------------------------- */
+
+section#experience .timeline {
+    border-left: 3px solid #366cfe;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+}
+
+section#experience .timeline .item {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+section#experience .timeline .item:last-child {
+    margin-bottom: 0;
+}
+
+section#experience .timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid #366cfe;
+}
+
+section#experience .timeline .item:after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #366cfe;
+    z-index: 10;
+}
+
+section#experience .timeline .work-place {
+    position: relative;
+}
+
+section#experience .timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #6a6a6a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+section#experience .timeline .location .fa {
+    margin-right: 5px;
+}
+
+section#experience .timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+section#experience .timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+
+section#experience .timeline .job-meta .title {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    max-width: 220px;
+}
+
+section#experience .timeline .job-meta .time {
+    font-family: "Montserrat", sans-serif;
+    color: #6a6a6a;
+    font-size: 15px;
+}
+
+section#experience .timeline .job-desc {
+    color: #6a6a6a;
+    font-size: 15px;
 }
 
 /* ------------------------------------------------------------------- */
@@ -703,7 +816,25 @@ footer ul.social-buttons .social-media {
 @media (min-width: 768px) {
 
 .bg-image-education {
-    background-image: url("../img/education-bg.jpg"); 
+    background-image: url("../img/education-bg.jpg");  
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.bg-image-experience {
+    background-image: url("../img/experience-bg.jpg");  
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-skills {
+    background-image: url("../img/skills-bg.jpg"); 
     min-width: 400px;
     min-height: 550px; 
     background-attachment: fixed;
