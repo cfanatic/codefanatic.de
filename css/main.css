@@ -380,7 +380,7 @@ section#experience .timeline {
     border-top-right-radius: 2px;
     position: relative;
     padding: 0 30px;
-    margin-left: 280px;
+    margin-left: 30px;
 }
 
 section#experience .timeline .item {
@@ -432,27 +432,24 @@ section#experience .timeline .item:after {
     z-index: 10;
 }
 
-section#experience .timeline .work-place {
-    position: relative;
-}
-
-section#experience .timeline .location {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    color: #6a6a6a;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-}
-
-section#experience .timeline .location .fa {
-    margin-right: 5px;
-}
-
 section#experience .timeline .place {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 20px;
+}
+
+section#experience .timeline .work-place {
+    position: relative;
+}
+
+section#experience .timeline .job-meta .time {
+    margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+    
+section#experience .timeline {
+    margin-left: 280px;
 }
 
 section#experience .timeline .job-meta {
@@ -471,6 +468,21 @@ section#experience .timeline .job-meta .time {
     font-family: "Montserrat", sans-serif;
     color: #6a6a6a;
     font-size: 15px;
+}
+    
+section#experience .timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #6a6a6a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+section#experience .timeline .location .fa {
+    margin-right: 5px;
+}
+    
 }
 
 section#experience .timeline .job-desc {
