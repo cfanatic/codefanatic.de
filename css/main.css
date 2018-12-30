@@ -323,7 +323,7 @@ section#about {
 
 /* ------------------------------------------------------------------- */
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
 
 section#education .education-bonn {
     padding-bottom: 10%;
