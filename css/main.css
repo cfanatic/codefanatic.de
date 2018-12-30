@@ -289,13 +289,14 @@ header.masthead .intro-text .intro-heading {
 header.masthead .intro-text .intro-lead-in {
     font-size: 68px;
     font-weight: 700;
-    margin-bottom: 0;
+    margin-bottom: 12px;
 }
 
 header.masthead .intro-text .intro-heading {
     font-size: 38px;
     font-weight: 700;
     padding: 30px;
+    line-height: 60px;
 }
 
 }
