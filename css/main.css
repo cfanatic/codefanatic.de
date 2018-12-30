@@ -300,7 +300,7 @@ section#about .text {
 @media (max-width: 767px) {
 
 section#about {
-    padding: 100px 0;
+    padding: 90px 0;
 }
     
 }
@@ -380,7 +380,8 @@ section#experience .timeline {
     border-top-right-radius: 2px;
     position: relative;
     padding: 0 30px;
-    margin-left: 30px;
+    margin-left: 18px;
+    padding-right: 18px;
 }
 
 section#experience .timeline .item {
@@ -454,7 +455,7 @@ section#experience .timeline {
 
 section#experience .timeline .job-meta {
     position: absolute;
-    left: -280px;
+    left: -292px;
     top: 0;
 }
 
