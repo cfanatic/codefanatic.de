@@ -2,6 +2,10 @@ $(window).on('load', function(){
     $('#load-animation').fadeOut(750);
 });
 
+$(window).scroll(function(){
+    $(".navbar").css("opacity", 1 - $(window).scrollTop() / 160);
+  });
+
 $(document).ready(function(){
     "use strict";
 
@@ -63,10 +67,11 @@ $(document).ready(function(){
 
     // Collapse navbar
     var navbarCollapse = function(){
-        if ($("#navigation").offset().top > 100) {
+        if ($("#navigation").offset().top > 1060) {
             $("#navigation").addClass("navbar-shrink");
             $("#navigation").addClass("navbar-active");
             $("#navigation").removeClass("navbar-hover");
+            $(".navbar").css("opacity", 1);
         } else {
             $("#navigation").removeClass("navbar-shrink");
             $("#navigation").removeClass("navbar-active");
