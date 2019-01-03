@@ -67,19 +67,14 @@ $(document).ready(function(){
 
     // Collapse navbar
     var navbarCollapse = function(){
-        if ($("#navigation").offset().top > 1060) {
-            $("#navigation").addClass("navbar-shrink");
-            $("#navigation").addClass("navbar-active");
-            $("#navigation").removeClass("navbar-hover");
+        if ($("#navigation").offset().top > 1000) {
+            $("#navigation").removeClass("navbar-hover").addClass("navbar-shrink navbar-active");
             $(".navbar").css("opacity", 1);
         } else {
-            $("#navigation").removeClass("navbar-shrink");
-            $("#navigation").removeClass("navbar-active");
-            $("#navigation").addClass("navbar-hover");
-        }      
+            $("#navigation").addClass("navbar-hover").removeClass("navbar-shrink navbar-active");
+        }
     };
-    // Collapse now if page is not at top
-    navbarCollapse();
+
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);    
 });
