@@ -260,8 +260,12 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding-bottom: 45px;
+}
+    
+header.masthead .intro-text .intro-button {
+    margin-bottom: 40px;
 }
 
 }
