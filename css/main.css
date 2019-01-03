@@ -255,11 +255,13 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 1281px) {
 
 header.masthead .intro-text .intro-lead-in {
+    font-size: 88px;
     margin-bottom: 35px;
     padding-bottom: 10px;
 }
 
 header.masthead .intro-text .intro-heading {
+    font-size: 66px;
     margin-bottom: 30px;
     padding-bottom: 45px;
 }
