@@ -74,6 +74,7 @@ $(document).ready(function(){
             $("#navigation").addClass("navbar-hover").removeClass("navbar-shrink navbar-active");
         }
     };
+    navbarCollapse();
 
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);    
