@@ -33,8 +33,11 @@
             var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
             g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
         })();
-        function trackNavigation(action) {
-            _paq.push(["trackEvent", "Navigation", action]);
+        function trackMenu(action) {
+            _paq.push(["trackEvent", "Menu", action]);
+        }
+        function trackButton(action, name) {
+            _paq.push(["trackEvent", "Button", action, name]);
         }
     </script>
     <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
@@ -51,35 +54,35 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav text-uppercase mx-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#page-top" onclick="trackNavigation('Home')">Home</a>
+            <a class="nav-link js-scroll-trigger" href="#page-top" onclick="trackMenu('Home')">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education" onclick="trackNavigation('Education')">Education</a>
+            <a class="nav-link js-scroll-trigger" href="#education" onclick="trackMenu('Education')">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience" onclick="trackNavigation('Experience')">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#experience" onclick="trackMenu('Experience')">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills" onclick="trackNavigation('Skills')">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills" onclick="trackMenu('Skills')">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects" onclick="trackNavigation('Projects')">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects" onclick="trackMenu('Projects')">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact" onclick="trackNavigation('Contact')">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact" onclick="trackMenu('Contact')">Contact</a>
           </li>           
         </ul>
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- Home -->
     <header class="masthead">
       <div class="container">
         <div class="intro-text d-flex flex-column justify-content-center">
           <div class="intro-lead-in">Hey!</div>
           <div class="intro-heading">I'm Arnd and I <i class="fa fa-heart text-primary"></i> coding.</div>
           <div>
-          <a class="intro-button btn btn-primary mt-5 text-uppercase js-scroll-trigger" href="#background_education">Explore</a>
+          <a class="intro-button btn btn-primary mt-5 text-uppercase js-scroll-trigger" href="#background_education" onclick="trackButton('Home', 'Explore')">Explore</a>
           </div>
         </div>
       </div>
@@ -118,7 +121,7 @@
               <div class="title">Bachelor of Engineering</div>
               <div class="time">2007 – 2011</div>
             <p>
-              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationBonn" aria-expanded="false" aria-controls="educationBonn">
+              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationBonn" aria-expanded="false" aria-controls="educationBonn" onclick="trackButton('Education', 'Bonn')">
                 Details
               </button>
             </p>
@@ -138,7 +141,7 @@
               <div class="title">Master of Science</div>
               <div class="time">2011 – 2014</div>         
             <p>
-              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationErlangen" aria-expanded="false" aria-controls="educationErlangen">
+              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationErlangen" aria-expanded="false" aria-controls="educationErlangen" onclick="trackButton('Education', 'Erlangen')">
                 Details
               </button>
             </p>
@@ -506,7 +509,7 @@
               <div class="row">
                 <div class="form-button col-md text-center">
                   <div class="form-success"></div>
-                  <input type="submit" class="btn btn-primary text-uppercase" value="Send message">
+                  <input type="submit" class="btn btn-primary text-uppercase" value="Send message" onclick="trackButton('Contact', 'Send')">
                 </div>
               </div>
             </form>
@@ -523,25 +526,25 @@
             <ul class="list-inline social-buttons button-hover">
               <li class="list-inline-item social-button-github">
                 <a href="https://github.com/cfanatic" target="_blank">
-                  <i class="fab fa-github"></i>
+                  <i class="fab fa-github" onclick="trackButton('Footer', 'GitHub')"></i>
                 </a>
                 <p class="social-media social-media-github">GitHub</p>
               </li>
               <li class="list-inline-item social-button-linkedin">
                 <a href="https://de.linkedin.com/in/arndgazecki" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-linkedin-in" onclick="trackButton('Footer', 'LinkedIn')"></i>
                 </a>
                 <p class="social-media social-media-linkedin">LinkedIn</p>  
               </li>
               <li class="list-inline-item social-button-email">
                 <a href="" data-name="arnd" data-domain="codefanatic" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-                  <i class="fa fa-envelope"></i>
+                  <i class="fa fa-envelope" onclick="trackButton('Footer', 'eMail')"></i>
                 </a>
                 <p class="social-media social-media-email">eMail</p>    
               </li>
               <li class="list-inline-item social-button-resume">
                 <a href="https://codefanatic.de/git/resume.pdf" target="_blank">
-                  <i class="fas fa-user-circle"></i>
+                  <i class="fas fa-user-circle" onclick="trackButton('Footer', 'Resume')"></i>
                 </a>
                 <p class="social-media social-media-resume text-center">Resumé</p>   
               </li>                

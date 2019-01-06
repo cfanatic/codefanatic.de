@@ -33,8 +33,11 @@
             var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
             g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
         })();
-        function trackNavigation(action) {
-            _paq.push(["trackEvent", "Navigation", action]);
+        function trackMenu(action) {
+            _paq.push(["trackEvent", "Menu", action]);
+        }
+        function trackButton(action, name) {
+            _paq.push(["trackEvent", "Button", action, name]);
         }
     </script>
     <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
@@ -51,35 +54,35 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav text-uppercase mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../#page-top" onclick="trackNavigation('Home')">Home</a>
+            <a class="nav-link" href="../#page-top" onclick="trackMenu('Home')">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#education" onclick="trackNavigation('Education')">Education</a>
+            <a class="nav-link" href="../#education" onclick="trackMenu('Education')">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#experience" onclick="trackNavigation('Experience')">Experience</a>
+            <a class="nav-link" href="../#experience" onclick="trackMenu('Experience')">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#skills" onclick="trackNavigation('Skills')">Skills</a>
+            <a class="nav-link" href="../#skills" onclick="trackMenu('Skills')">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#projects" onclick="trackNavigation('Projects')">Projects</a>
+            <a class="nav-link" href="../#projects" onclick="trackMenu('Projects')">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#contact" onclick="trackNavigation('Contact')">Contact</a>
+            <a class="nav-link" href="../#contact" onclick="trackMenu('Contact')">Contact</a>
           </li>           
         </ul>
       </div>
     </nav>
 
-    <!-- Header --> 
+    <!-- Home --> 
     <header class="masthead">
       <div class="container">
         <div class="intro-text d-flex flex-column justify-content-center">
           <div class="intro-lead-in">404</div>
           <div class="intro-heading">Sorry, page not found.</div>
           <div>
-          <a class="intro-button btn btn-primary mt-5 text-uppercase" href="../">Return</a>
+          <a class="intro-button btn btn-primary mt-5 text-uppercase" href="../" onclick="trackButton('Home', 'Return')">Return</a>
           </div>
         </div>
       </div>
