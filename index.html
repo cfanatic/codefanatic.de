@@ -39,6 +39,9 @@
         function trackButton(action, name) {
             _paq.push(["trackEvent", "Button", action, name]);
         }
+        function trackGoal(id) {
+            _paq.push(['trackGoal', id])
+        }
     </script>
     <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 
@@ -405,8 +408,8 @@
         <div class="col-lg-10 col-centered">
         <div class="row grid mb-3"> 
           <div class="col-lg">
-           <figure class="effect-ming rounded">
-            <img src="img/projects/birdview.png" alt="Birdview: Image perspective transformation and text recognition with OpenCV"/>
+           <figure class="effect-ming rounded" onmouseenter="trackGoal(1)">
+            <img src="img/projects/birdview.png" alt="Birdview: Image perspective transformation and text recognition with OpenCV">
             <figcaption>
               <h2><a href="https://github.com/cfanatic/cv-birdview/blob/master/README.md" target="_blank">CV-<span>Birdview</span></a></h2>
               <p>Image perspective transformation and text recognition with OpenCV.</p>
@@ -419,7 +422,7 @@
           </figure>  
           </div>
           <div class="col-lg">
-          <figure class="effect-ming rounded">
+          <figure class="effect-ming rounded" onmouseenter="trackGoal(2)">
             <img src="img/projects/netchat-p2p.png" alt="Netchat-P2P: Messenger with peer-to-peer communication and crypto support"/>
             <figcaption>
               <h2><a href="https://github.com/cfanatic/p2p-netchat/blob/master/README.md" target="_blank">p2p-<span>Netchat</span></a></h2>
@@ -435,7 +438,7 @@
         </div>
         <div class="row grid"> 
           <div class="col-lg">
-          <figure class="effect-ming rounded">
+          <figure class="effect-ming rounded" onmouseenter="trackGoal(3)">
             <img src="img/projects/netchat-mysql.png" class="rounded" alt="Netchat-MySQL: Messenger with database management and symmetric encryption support"/>
             <figcaption>
               <h2><a href="https://github.com/cfanatic/mysql-netchat/blob/master/README.md" target="_blank">MySQL-<span>Netchat</span></a></h2>                    
@@ -449,7 +452,7 @@
           </figure> 
           </div>
           <div class="col-lg">
-          <figure class="effect-ming rounded">
+          <figure class="effect-ming rounded" onmouseenter="trackGoal(4)">
             <img src="img/projects/snake.png" alt="Snake: Implementation of the classic mobile game running on the Qt library"/>
             <figcaption>
               <h2><a href="https://github.com/cfanatic/qt-snake/blob/master/README.md" target="_blank">Qt-<span>Snake</span></a></h2>
