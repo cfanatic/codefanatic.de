@@ -524,27 +524,27 @@
         <div class="row">
           <div class="col-md">
             <ul class="list-inline social-buttons button-hover">
-              <li class="list-inline-item social-button-github">
+              <li class="list-inline-item social-button-github" onclick="trackButton('Footer', 'GitHub')">
                 <a href="https://github.com/cfanatic" target="_blank">
-                  <i class="fab fa-github" onclick="trackButton('Footer', 'GitHub')"></i>
+                  <i class="fab fa-github"></i>
                 </a>
                 <p class="social-media social-media-github">GitHub</p>
               </li>
-              <li class="list-inline-item social-button-linkedin">
+              <li class="list-inline-item social-button-linkedin" onclick="trackButton('Footer', 'LinkedIn')">
                 <a href="https://de.linkedin.com/in/arndgazecki" target="_blank">
-                  <i class="fab fa-linkedin-in" onclick="trackButton('Footer', 'LinkedIn')"></i>
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
                 <p class="social-media social-media-linkedin">LinkedIn</p>  
               </li>
-              <li class="list-inline-item social-button-email">
+              <li class="list-inline-item social-button-email" onclick="trackButton('Footer', 'eMail');">
                 <a href="" data-name="arnd" data-domain="codefanatic" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
-                  <i class="fa fa-envelope" onclick="trackButton('Footer', 'eMail')"></i>
+                  <i class="fa fa-envelope"></i>
                 </a>
                 <p class="social-media social-media-email">eMail</p>    
               </li>
-              <li class="list-inline-item social-button-resume">
+              <li class="list-inline-item social-button-resume" onclick="trackButton('Footer', 'Resume')">
                 <a href="https://codefanatic.de/git/resume.pdf" target="_blank">
-                  <i class="fas fa-user-circle" onclick="trackButton('Footer', 'Resume')"></i>
+                  <i class="fas fa-user-circle"></i>
                 </a>
                 <p class="social-media social-media-resume text-center">Resumé</p>   
               </li>                
