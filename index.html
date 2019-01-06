@@ -24,14 +24,18 @@
         _paq.push(["setCookieDomain", "*.codefanatic.de"]);
         _paq.push(["trackPageView"]);
         _paq.push(["trackVisibleContentImpressions"]);
+        _paq.push(["enableHeartBeatTimer"]);
         _paq.push(["enableLinkTracking"]);
         (function() {
             var u="https://status.codefanatic.de/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '1']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            _paq.push(["setTrackerUrl", u+"piwik.php"]);
+            _paq.push(["setSiteId", "1"]);
+            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+            g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
         })();
+        function trackNavigation(action) {
+            _paq.push(["trackEvent", "Navigation", action]);
+        }
     </script>
     <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 
@@ -47,22 +51,22 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav text-uppercase mx-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+            <a class="nav-link js-scroll-trigger" href="#page-top" onclick="trackNavigation('Home')">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link js-scroll-trigger" href="#education" onclick="trackNavigation('Education')">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#experience" onclick="trackNavigation('Experience')">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills" onclick="trackNavigation('Skills')">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects" onclick="trackNavigation('Projects')">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact" onclick="trackNavigation('Contact')">Contact</a>
           </li>           
         </ul>
       </div>
@@ -82,7 +86,7 @@
     </header>
       
     <!-- About -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="About"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="About"></div>
     <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
@@ -97,7 +101,7 @@
     <div class="bg-image-education" id="background_education"></div> 
       
     <!-- Education -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="Education"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="Education"></div>
     <section id="education">
       <div class="container">
         <div class="row">
@@ -159,7 +163,7 @@
     <div class="bg-image-experience" id="background_experience"></div> 
 
     <!-- Experience -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="Experience"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="Experience"></div>
     <section class="bg-light" id="experience">
       <div class="container">
         <div class="row">
@@ -235,7 +239,7 @@
     <div class="bg-image-skills" id="background_skills"></div>
 
     <!-- Skills -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="Skills"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="Skills"></div>
     <section id="skills">
       <div class="container">
         <div class="row">
@@ -385,7 +389,7 @@
     <div class="bg-image-projects" id="background_projects"></div>
 
     <!-- Projects -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="Projects"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="Projects"></div>
     <section class="bg-light" id="projects">
       <div class="container">
         <div class="row">
@@ -465,7 +469,7 @@
     <div class="bg-image-contact" id="background_contact"></div> 
 
     <!-- Contact -->
-    <div data-track-content data-content-name="Navigation" data-content-piece="Contact"></div>
+    <div data-track-content data-content-name="Content" data-content-piece="Contact"></div>
     <section id="contact">
       <div class="container">
         <div class="row">

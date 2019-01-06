@@ -24,14 +24,18 @@
         _paq.push(["setCookieDomain", "*.codefanatic.de"]);
         _paq.push(["trackPageView"]);
         _paq.push(["trackVisibleContentImpressions"]);
+        _paq.push(["enableHeartBeatTimer"]);
         _paq.push(["enableLinkTracking"]);
         (function() {
             var u="https://status.codefanatic.de/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '1']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            _paq.push(["setTrackerUrl", u+"piwik.php"]);
+            _paq.push(["setSiteId", "1"]);
+            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+            g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
         })();
+        function trackNavigation(action) {
+            _paq.push(["trackEvent", "Navigation", action]);
+        }
     </script>
     <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 
@@ -44,25 +48,25 @@
 
     <!-- Navigation --> 
     <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
-      <div class="navbar-collapse">
+      <div class="collapse navbar-collapse">
         <ul class="navbar-nav text-uppercase mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../#page-top">Home</a>
+            <a class="nav-link" href="../#page-top" onclick="trackNavigation('Home')">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#education">Education</a>
+            <a class="nav-link" href="../#education" onclick="trackNavigation('Education')">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#experience">Experience</a>
+            <a class="nav-link" href="../#experience" onclick="trackNavigation('Experience')">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#skills">Skills</a>
+            <a class="nav-link" href="../#skills" onclick="trackNavigation('Skills')">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#projects">Projects</a>
+            <a class="nav-link" href="../#projects" onclick="trackNavigation('Projects')">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../#contact">Contact</a>
+            <a class="nav-link" href="../#contact" onclick="trackNavigation('Contact')">Contact</a>
           </li>           
         </ul>
       </div>
