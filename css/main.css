@@ -252,7 +252,7 @@ header.masthead .intro-text .intro-heading {
     font-family: "Montserrat", sans-serif;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1600px) {
 
 header.masthead .intro-text .intro-lead-in {
     font-size: 88px;
