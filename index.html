@@ -1,572 +1,649 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Arnd Gazecki">
-    <meta name="description" content="I am a passionate software engineer who is determined to work on innovative projects to advance technology for a better future.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Arnd Gazecki">
+  <meta name="description"
+    content="I am a passionate software engineer who is determined to work on innovative projects to advance technology for a better future.">
 
-    <title>Arnd Gazecki</title>
+  <title>Arnd Gazecki</title>
 
-    <link href="" rel="shortcut icon">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" rel="stylesheet" type="text/css">
-    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">     
-    <link href="css/main.css" rel="stylesheet">
+  <link href="" rel="shortcut icon">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"
+    rel="stylesheet" type="text/css">
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"
+    rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-    <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(["setDocumentTitle", "Main"]);
-        _paq.push(["setCookieDomain", "*.codefanatic.de"]);
-        _paq.push(["trackPageView"]);
-        _paq.push(["trackVisibleContentImpressions"]);
-        _paq.push(["enableHeartBeatTimer"]);
-        _paq.push(["enableLinkTracking"]);
-        (function() {
-            var u="https://status.codefanatic.de/";
-            _paq.push(["setTrackerUrl", u+"piwik.php"]);
-            _paq.push(["setSiteId", "1"]);
-            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
-            g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-        })();
-        function trackMenu(action) {
-            _paq.push(["trackEvent", "Menu", action, "Navigate"]);
-        }
-        function trackButton(action, name) {
-            _paq.push(["trackEvent", "Button", action, name]);
-        }
-        function trackGoal(id) {
-            _paq.push(['trackGoal', id])
-        }
-    </script>
-    <!-- <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript> -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDocumentTitle", "Main"]);
+    _paq.push(["setCookieDomain", "*.codefanatic.de"]);
+    _paq.push(["trackPageView"]);
+    _paq.push(["trackVisibleContentImpressions"]);
+    _paq.push(["enableHeartBeatTimer"]);
+    _paq.push(["enableLinkTracking"]);
+    (function () {
+      var u = "https://status.codefanatic.de/";
+      _paq.push(["setTrackerUrl", u + "piwik.php"]);
+      _paq.push(["setSiteId", "1"]);
+      var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
+      g.type = "text/javascript"; g.async = true; g.defer = true; g.src = u + "piwik.js"; s.parentNode.insertBefore(g, s);
+    })();
+    function trackMenu(action) {
+      _paq.push(["trackEvent", "Menu", action, "Navigate"]);
+    }
+    function trackButton(action, name) {
+      _paq.push(["trackEvent", "Button", action, name]);
+    }
+    function trackGoal(id) {
+      _paq.push(['trackGoal', id])
+    }
+  </script>
+  <!-- <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript> -->
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
-    <!-- Load Animation -->
-    <div id="load-animation"></div>
+  <!-- Load Animation -->
+  <div id="load-animation"></div>
 
-    <!-- Navigation --> 
-    <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav text-uppercase mx-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#page-top" onclick="trackMenu('Home')">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education" onclick="trackMenu('Education')">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience" onclick="trackMenu('Experience')">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills" onclick="trackMenu('Skills')">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects" onclick="trackMenu('Projects')">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact" onclick="trackMenu('Contact')">Contact</a>
-          </li>           
-        </ul>
-      </div>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav text-uppercase mx-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#page-top" onclick="trackMenu('Home')">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education" onclick="trackMenu('Education')">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience" onclick="trackMenu('Experience')">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills" onclick="trackMenu('Skills')">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects" onclick="trackMenu('Projects')">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact" onclick="trackMenu('Contact')">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text d-flex flex-column justify-content-center">
-          <div class="intro-lead-in">Hey!</div>
-          <div class="intro-heading">I'm Arnd and I <i class="fa fa-heart text-primary"></i> coding.</div>
-          <div>
-          <a class="intro-button btn btn-primary mt-5 text-uppercase js-scroll-trigger" href="#background_education" onclick="trackButton('Home', 'Explore')">Explore</a>
-          </div>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text d-flex flex-column justify-content-center">
+        <div class="intro-lead-in">Hey!</div>
+        <div class="intro-heading">I'm Arnd and I <i class="fa fa-heart text-primary"></i> coding.</div>
+        <div>
+          <a class="intro-button btn btn-primary mt-5 text-uppercase js-scroll-trigger" href="#background_education"
+            onclick="trackButton('Home', 'Explore')">Explore</a>
         </div>
       </div>
-    </header>
-      
-    <!-- About -->
-    <div data-track-content data-content-name="Content" data-content-piece="About"></div>
-    <section class="bg-light" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="text">www.codefanatic.de</div>
-          </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <div data-track-content data-content-name="Content" data-content-piece="About"></div>
+  <section class="bg-light" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="text">www.codefanatic.de</div>
         </div>
       </div>
-    </section>      
-      
-    <!-- Background-Education -->  
-    <div class="bg-image-education" id="background_education"></div> 
-      
-    <!-- Education -->
-    <div data-track-content data-content-name="Content" data-content-piece="Education"></div>
-    <section id="education">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Education</h2>
-            <h3 class="section-subheading">Turned my passion for software engineering into a technical career.</h3>
-          </div>
+    </div>
+  </section>
+
+  <!-- Background-Education -->
+  <div class="bg-image-education" id="background_education"></div>
+
+  <!-- Education -->
+  <div data-track-content data-content-name="Content" data-content-piece="Education"></div>
+  <section id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Education</h2>
+          <h3 class="section-subheading">Turned my passion for software engineering into a technical career.</h3>
         </div>
-        <div class="row">
+      </div>
+      <div class="row">
         <div class="col-lg-10 col-centered">
-        <div class="row grid"> 
-          <div class="col-lg text-center education-bonn">
-            <img class="img-bonn" src="img/education/hochschule_bonn.png" rel="nofollow" alt="Bonn-Rhein-Sieg University of Applied Sciences">
+          <div class="row grid">
+            <div class="col-lg text-center education-bonn">
+              <img class="img-bonn" src="img/education/hochschule_bonn.png" rel="nofollow"
+                alt="Bonn-Rhein-Sieg University of Applied Sciences">
               <div class="title">Bachelor of Engineering</div>
               <div class="time">2007 – 2011</div>
-            <p>
-              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationBonn" aria-expanded="false" aria-controls="educationBonn" onclick="trackButton('Education', 'Bonn')">
-                Details
-              </button>
-            </p>
-            <div class="collapse" id="educationBonn">
-              <div class="card card-body bg-light col-centered">
-              <ul class="list-group desc text-left">
-                <li class="list-group-item item-header text-center borderless">Mechanical Engineering</li>  
-                <li class="list-group-item item-desc text-justify borderless">Major: &nbsp;Mechatronics</li>
-                <li class="list-group-item item-desc text-left borderless">GPA: &nbsp;1.6</li>
-                <li class="list-group-item item-desc text-justify borderless">Thesis: Enhancement of a powertrain simulation model in Matlab/Simulink used to calculate a vehicle's fuel consumption.</li>         
-              </ul>
+              <p>
+                <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse"
+                  data-target="#educationBonn" aria-expanded="false" aria-controls="educationBonn"
+                  onclick="trackButton('Education', 'Bonn')">
+                  Details
+                </button>
+              </p>
+              <div class="collapse" id="educationBonn">
+                <div class="card card-body bg-light col-centered">
+                  <ul class="list-group desc text-left">
+                    <li class="list-group-item item-header text-center borderless">Mechanical Engineering</li>
+                    <li class="list-group-item item-desc text-justify borderless">Major: &nbsp;Mechatronics</li>
+                    <li class="list-group-item item-desc text-left borderless">GPA: &nbsp;1.6</li>
+                    <li class="list-group-item item-desc text-justify borderless">Thesis: Enhancement of a powertrain
+                      simulation model in Matlab/Simulink used to calculate a vehicle's fuel consumption.</li>
+                  </ul>
+                </div>
               </div>
-            </div>               
-          </div>           
-          <div class="col-lg text-center education-erlangen">
-            <img class="img-erlangen" src="img/education/university_erlangen.png" rel="nofollow" alt="University of Erlangen-Nuremberg">
+            </div>
+            <div class="col-lg text-center education-erlangen">
+              <img class="img-erlangen" src="img/education/university_erlangen.png" rel="nofollow"
+                alt="University of Erlangen-Nuremberg">
               <div class="title">Master of Science</div>
-              <div class="time">2011 – 2014</div>         
-            <p>
-              <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse" data-target="#educationErlangen" aria-expanded="false" aria-controls="educationErlangen" onclick="trackButton('Education', 'Erlangen')">
-                Details
-              </button>
-            </p>
-            <div class="collapse" id="educationErlangen">
-              <div class="card card-body bg-light col-centered">
-              <ul class="list-group desc text-left">
-                <li class="list-group-item item-header text-center borderless">Mechatronics</li>
-                <li class="list-group-item item-desc text-justify borderless">Major: &nbsp;Electrical Drives</li>
-                <li class="list-group-item item-desc text-left borderless">GPA: &nbsp;1.6</li>
-                <li class="list-group-item item-desc text-justify borderless">Focus: DC-DC converters and DC-AC inverters, AC-motor controls with V/f and field-oriented design, linear drives, power electronics.</li>
-              </ul>
+              <div class="time">2011 – 2014</div>
+              <p>
+                <button class="btn btn-secondary text-uppercase" type="button" data-toggle="collapse"
+                  data-target="#educationErlangen" aria-expanded="false" aria-controls="educationErlangen"
+                  onclick="trackButton('Education', 'Erlangen')">
+                  Details
+                </button>
+              </p>
+              <div class="collapse" id="educationErlangen">
+                <div class="card card-body bg-light col-centered">
+                  <ul class="list-group desc text-left">
+                    <li class="list-group-item item-header text-center borderless">Mechatronics</li>
+                    <li class="list-group-item item-desc text-justify borderless">Major: &nbsp;Electrical Drives</li>
+                    <li class="list-group-item item-desc text-left borderless">GPA: &nbsp;1.6</li>
+                    <li class="list-group-item item-desc text-justify borderless">Focus: DC-DC converters and DC-AC
+                      inverters, AC-motor controls with V/f and field-oriented design, linear drives, power electronics.
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>               
+            </div>
           </div>
-        </div> 
         </div>
       </div>
-      </div>
-    </section>
-      
-    <!-- Background-Experience -->  
-    <div class="bg-image-experience" id="background_experience"></div> 
+    </div>
+  </section>
 
-    <!-- Experience -->
-    <div data-track-content data-content-name="Content" data-content-piece="Experience"></div>
-    <section class="bg-light" id="experience">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Experience</h2>
-            <h3 class="section-subheading">Working on innovative software and technology for the automotive industry.</h3>
-          </div>
+  <!-- Background-Experience -->
+  <div class="bg-image-experience" id="background_experience"></div>
+
+  <!-- Experience -->
+  <div data-track-content data-content-name="Content" data-content-piece="Experience"></div>
+  <section class="bg-light" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Experience</h2>
+          <h3 class="section-subheading">Working on innovative software and technology for the automotive industry.</h3>
         </div>
-        <div class="row">
+      </div>
+      <div class="row">
         <div class="col-lg-10 col-centered">
-        <div class="row grid"> 
-          <div class="timeline">
-            <div class="item">
-              <div class="work-place">
-                <h3 class="place">Bosch Engineering GmbH</h3>
-                <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
+          <div class="row grid">
+            <div class="timeline">
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">Bosch Engineering GmbH</h3>
+                  <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">Software Engineer</div>
+                  <div class="time">2017 – present</div>
+                </div>
+                <div class="job-desc text-justify">
+                  <p>Working on adaptive cruise control systems with radar and camera data fusion in the field of driver
+                    assistance systems. Responsible for radar software components related to digital signal processing,
+                    ego-vehicle dynamics estimation, object hypothesis and situational analysis. Firm knowledge in the
+                    analysis of vehicle measurements with focus on identification of target object loss reasons. Further
+                    expertise in the evaluation of object type classifications with respect to <i>obstacle</i> and
+                    <i>non-obstacle</i>.</p>
+                </div>
               </div>
-              <div class="job-meta">
-                <div class="title">Software Engineer</div>
-                <div class="time">2017 – present</div>
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">Valeo Schalter und Sensoren GmbH</h3>
+                  <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">Software Engineer</div>
+                  <div class="time">2016 – 2017</div>
+                </div>
+                <div class="job-desc text-justify">
+                  <p>Worked on a project for the development of a novel automotive laser scanner (LiDAR). Developed lane
+                    and border extraction algorithms with V-model compliance in C++. Implemented a test environment to
+                    analyze the detection performance using OpenCV. Experimented with the design and implementation of
+                    signal processing algorithms. Enhanced the intrinsic end-of-line sensor calibration algorithms in
+                    C++.</p>
+                </div>
               </div>
-              <div class="job-desc text-justify">
-                <p>Working on adaptive cruise control systems with radar and camera data fusion in the field of driver assistance systems. Responsible for radar software components related to digital signal processing, ego-vehicle dynamics estimation, object hypothesis and situational analysis. Firm knowledge in the analysis of vehicle measurements with focus on identification of target object loss reasons. Further expertise in the evaluation of object type classifications with respect to <i>obstacle</i> and <i>non-obstacle</i>.</p> 
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">Robert Bosch GmbH</h3>
+                  <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">Software Engineer</div>
+                  <div class="time">2014 – 2016</div>
+                </div>
+                <div class="job-desc text-justify">
+                  <p>Worked on a project for the development of a 48V electrical boost recuperation machine. Implemented
+                    software requirements in Matlab/Simulink under consideration of the V-model specification and
+                    ISO-26262 compliance. Verified algorithms in Simulink and Hardware-in-the-Loop simulations.
+                    Performed tests by analyzing code coverage, runtime and controls.</p>
+                </div>
               </div>
-            </div>
-            <div class="item">
-              <div class="work-place">
-                <h3 class="place">Valeo Schalter und Sensoren GmbH</h3>
-                <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
-              </div>
-              <div class="job-meta">
-                <div class="title">Software Engineer</div>
-                <div class="time">2016 – 2017</div>
-              </div>
-              <div class="job-desc text-justify">
-                <p>Worked on a project for the development of a novel automotive laser scanner (LiDAR). Developed lane and border extraction algorithms with V-model compliance in C++. Implemented a test environment to analyze the detection performance using OpenCV. Experimented with the design and implementation of signal processing algorithms. Enhanced the intrinsic end-of-line sensor calibration algorithms in C++.</p> 
-              </div>
-            </div>
-            <div class="item">
-              <div class="work-place">
-                <h3 class="place">Robert Bosch GmbH</h3>
-                <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;Germany</div>
-              </div>
-              <div class="job-meta">
-                <div class="title">Software Engineer</div>
-                <div class="time">2014 – 2016</div>
-              </div>
-              <div class="job-desc text-justify">
-                <p>Worked on a project for the development of a 48V electrical boost recuperation machine. Implemented software requirements in Matlab/Simulink under consideration of the V-model specification and ISO-26262 compliance. Verified algorithms in Simulink and Hardware-in-the-Loop simulations. Performed tests by analyzing code coverage, runtime and controls.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="work-place">
-                <h3 class="place">Robert Bosch LLC</h3>
-                <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;United States</div>
-              </div>
-              <div class="job-meta">
-                <div class="title">Internship</div>
-                <div class="time">2012</div>
-              </div>
-              <div class="job-desc text-justify">
-                <p>Conducted a business case study in the field of rapid prototyping for flexible engine control. Designed a gasoline engine control interface implemented in Matlab/Simulink to set and monitor engine speed or load through fuel injection and ignition based on driver's demand. Tested the developed environment on target sensors and actuators at the customer site.</p>
+              <div class="item">
+                <div class="work-place">
+                  <h3 class="place">Robert Bosch LLC</h3>
+                  <div class="location"><i class="fas fa-map-marker-alt mr-1"></i>&nbsp;United States</div>
+                </div>
+                <div class="job-meta">
+                  <div class="title">Internship</div>
+                  <div class="time">2012</div>
+                </div>
+                <div class="job-desc text-justify">
+                  <p>Conducted a business case study in the field of rapid prototyping for flexible engine control.
+                    Designed a gasoline engine control interface implemented in Matlab/Simulink to set and monitor
+                    engine speed or load through fuel injection and ignition based on driver's demand. Tested the
+                    developed environment on target sensors and actuators at the customer site.</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        </div>
         </div>
       </div>
-    </section>
-      
-    <!-- Background-Skills -->  
-    <div class="bg-image-skills" id="background_skills"></div>
+    </div>
+  </section>
 
-    <!-- Skills -->
-    <div data-track-content data-content-name="Content" data-content-piece="Skills"></div>
-    <section id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Skills</h2>
-            <h3 class="section-subheading">Gained profound knowledge in multiple areas over the past years.</h3>
-          </div>
+  <!-- Background-Skills -->
+  <div class="bg-image-skills" id="background_skills"></div>
+
+  <!-- Skills -->
+  <div data-track-content data-content-name="Content" data-content-piece="Skills"></div>
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Skills</h2>
+          <h3 class="section-subheading">Gained profound knowledge in multiple areas over the past years.</h3>
         </div>
-        <div class="row">  
-          <div class="top-skills">
-            <div class="row">
-              <div class="item col-12 col-md-4">
-                <div class="item-inner text-center">
-                  <div class="chart-easy-pie text-center">
-                    <div class="chart" data-percent="90"><span>90</span>%<canvas height="110" width="110"></canvas></div>
-                  </div>
-                  <h4 class="skill-name">Software Engineering</h4>
-                  <div class="level">Expert &#8226; 15 years</div>
-                  <div class="desc"><p align="justify">Coding has been my passion for long. Why? It is fun to give computers the ability to make decisions. It is all about improving human life by creating great products. I am a firm believer in object-oriented programming and agile development methods.</p>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">C / C++</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="85" style="width: 85%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Python</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="50" style="width: 50%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Matlab / Simulink</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="65" style="width: 65%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">HTML + JavaScript</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="20" style="width: 20%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>                        
-                </div>
-              </div>
-              <div class="item col-12 col-md-4">
-                <div class="item-inner text-center">
-                  <div class="chart-easy-pie text-center">
-                    <div class="chart" data-percent="65"><span>65</span>%<canvas height="110" width="110"></canvas></div>
-                  </div>
-                  <h4 class="skill-name">Automotive Technology</h4>
-                  <div class="level">Advanced &#8226; 5 years</div>
-                  <div class="desc"><p align="justify">I work in the field of radar driver assistance systems with camera fusion. Autonomous driving triggers the next automotive revolution and offers new mobility services to be explored. I am dedicated to actively being part of this exciting evolution.</p>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Environment Perception</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="50" style="width: 50%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Situational Analysis</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="35" style="width: 35%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Electrical Drives</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="75" style="width: 75%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Gasoline Controls</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="20" style="width: 20%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>                        
-                </div>
-              </div>
-              <div class="item col-12 col-md-4">
-                <div class="item-inner text-center">
-                  <div class="chart-easy-pie text-center">
-                    <div class="chart" data-percent="80"><span>80</span>%<canvas height="110" width="110"></canvas></div>
-                  </div>
-                  <h4 class="skill-name">IT Experience</h4>
-                  <div class="level">Proficient &#8226; 10 years</div>
-                  <div class="desc"><p align="justify">Being a software fanatic, I have experimented with various Internet-related technologies. I discovered my deep interests in web services and information security. Credo: You are the only owner of data that you consider private. That's the reason for <a class="js-scroll-trigger" href="#projects">mysql-Netchat</a>.</p>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Linux + macOS</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="80" style="width: 80%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Server Administration</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="65" style="width: 65%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Information Security</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="30" style="width: 30%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="progress-item text-left">
-                  <div class="progress-title">Data Privacy</div>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-brand" aria-valuenow="40" style="width: 40%;" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>                        
-                </div>
-              </div>                
-            </div>
-          </div>
-        </div>
-        <div class="other-skills">
+      </div>
+      <div class="row">
+        <div class="top-skills">
           <div class="row">
-            <div class="col text-center">    
-              <h3 class="subtitle">Others</h3>
-              <div class="misc-skills">
-                <span class="skill-tag">Java</span>
-                <span class="skill-tag">jQuery</span>
-                <span class="skill-tag">CSS</span>
-                <span class="skill-tag">Bootstrap</span>
-                <span class="skill-tag">PHP</span>
-                <span class="skill-tag">SQL</span>
-                <br>
-                <span class="skill-tag">OpenCV</span>
-                <span class="skill-tag">Qt</span>
-                <span class="skill-tag">Git</span>
-                <span class="skill-tag">Scrum</span>
-                <span class="skill-tag">Bash</span>
-                <span class="skill-tag">Debian</span>
-                <span class="skill-tag">Gentoo</span>
+            <div class="item col-12 col-md-4">
+              <div class="item-inner text-center">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart" data-percent="90"><span>90</span>%<canvas height="110" width="110"></canvas></div>
+                </div>
+                <h4 class="skill-name">Software Engineering</h4>
+                <div class="level">Expert &#8226; 15 years</div>
+                <div class="desc">
+                  <p align="justify">Coding has been my passion for long. Why? It is fun to give computers the ability
+                    to make decisions. It is all about improving human life by creating great products. I am a firm
+                    believer in object-oriented programming and agile development methods.</p>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">C / C++</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="85" style="width: 85%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Python</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="50" style="width: 50%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Matlab / Simulink</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="65" style="width: 65%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">HTML + JavaScript</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="20" style="width: 20%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
               </div>
-            </div> 
-          </div>
-        </div>          
-      </div>
-    </section>
-      
-    <!-- Background-Projects -->  
-    <div class="bg-image-projects" id="background_projects"></div>
-
-    <!-- Projects -->
-    <div data-track-content data-content-name="Content" data-content-piece="Projects"></div>
-    <section class="bg-light" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Projects</h2>
-            <h3 class="section-subheading">Convince yourself of my passion for software engineering on GitHub.</h3>
+            </div>
+            <div class="item col-12 col-md-4">
+              <div class="item-inner text-center">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart" data-percent="65"><span>65</span>%<canvas height="110" width="110"></canvas></div>
+                </div>
+                <h4 class="skill-name">Automotive Technology</h4>
+                <div class="level">Advanced &#8226; 5 years</div>
+                <div class="desc">
+                  <p align="justify">I work in the field of radar driver assistance systems with camera fusion.
+                    Autonomous driving triggers the next automotive revolution and offers new mobility services to be
+                    explored. I am dedicated to actively being part of this exciting evolution.</p>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Environment Perception</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="50" style="width: 50%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Situational Analysis</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="35" style="width: 35%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Electrical Drives</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="75" style="width: 75%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Gasoline Controls</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="20" style="width: 20%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-md-4">
+              <div class="item-inner text-center">
+                <div class="chart-easy-pie text-center">
+                  <div class="chart" data-percent="80"><span>80</span>%<canvas height="110" width="110"></canvas></div>
+                </div>
+                <h4 class="skill-name">IT Experience</h4>
+                <div class="level">Proficient &#8226; 10 years</div>
+                <div class="desc">
+                  <p align="justify">Being a software fanatic, I have experimented with various Internet-related
+                    technologies. I discovered my deep interests in web services and information security. Credo: You
+                    are the only owner of data that you consider private. That's the reason for <a
+                      class="js-scroll-trigger" href="#projects">mysql-Netchat</a>.</p>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Linux + macOS</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="80" style="width: 80%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Server Administration</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="65" style="width: 65%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Information Security</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="30" style="width: 30%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="progress-item text-left">
+                  <div class="progress-title">Data Privacy</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-brand" aria-valuenow="40" style="width: 40%;"
+                      role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="other-skills">
         <div class="row">
+          <div class="col text-center">
+            <h3 class="subtitle">Others</h3>
+            <div class="misc-skills">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">jQuery</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">SQL</span>
+              <br>
+              <span class="skill-tag">OpenCV</span>
+              <span class="skill-tag">Qt</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Scrum</span>
+              <span class="skill-tag">Bash</span>
+              <span class="skill-tag">Debian</span>
+              <span class="skill-tag">Gentoo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Background-Projects -->
+  <div class="bg-image-projects" id="background_projects"></div>
+
+  <!-- Projects -->
+  <div data-track-content data-content-name="Content" data-content-piece="Projects"></div>
+  <section class="bg-light" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Projects</h2>
+          <h3 class="section-subheading">Convince yourself of my passion for software engineering on GitHub.</h3>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-10 col-centered">
-        <div class="row grid mb-3"> 
-          <div class="col-lg">
-           <figure class="effect-ming rounded" onmouseenter="trackGoal(1)">
-            <img src="img/projects/birdview.png" rel="nofollow" alt="Birdview: Image perspective transformation and text recognition with OpenCV">
-            <figcaption>
-              <h2><a href="https://github.com/cfanatic/cv-birdview/blob/master/README.md" target="_blank">CV-<span>Birdview</span></a></h2>
-              <p>Image perspective transformation and text recognition with OpenCV.</p>
-              <p class="icons">
-                <a href="https://github.com/cfanatic/cv-birdview" target="_blank"><i class="fa fa-home"></i></a>
-                <a href="https://github.com/cfanatic/cv-birdview/archive/master.zip" target="_blank"><i class="fa fa-download"></i></a>
-                <a href="#projects" target="_blank"><i class="fa fa-video"></i></a>
-              </p>
-            </figcaption>			
-          </figure>  
+          <div class="row grid mb-3">
+            <div class="col-lg">
+              <figure class="effect-ming rounded" onmouseenter="trackGoal(1)">
+                <img src="img/projects/birdview.png" rel="nofollow"
+                  alt="Birdview: Image perspective transformation and text recognition with OpenCV">
+                <figcaption>
+                  <h2><a href="https://github.com/cfanatic/cv-birdview/blob/master/README.md"
+                      target="_blank">CV-<span>Birdview</span></a></h2>
+                  <p>Image perspective transformation and text recognition with OpenCV.</p>
+                  <p class="icons">
+                    <a href="https://github.com/cfanatic/cv-birdview" target="_blank"><i class="fa fa-home"></i></a>
+                    <a href="https://github.com/cfanatic/cv-birdview/archive/master.zip" target="_blank"><i
+                        class="fa fa-download"></i></a>
+                    <a href="#projects" target="_blank"><i class="fa fa-video"></i></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg">
+              <figure class="effect-ming rounded" onmouseenter="trackGoal(2)">
+                <img src="img/projects/netchat-p2p.png" rel="nofollow"
+                  alt="Netchat-P2P: Messenger with peer-to-peer communication and crypto support" />
+                <figcaption>
+                  <h2><a href="https://github.com/cfanatic/p2p-netchat/blob/master/README.md"
+                      target="_blank">p2p-<span>Netchat</span></a></h2>
+                  <p>Messenger with peer-to-peer communication and crypto support.</p>
+                  <p class="icons">
+                    <a href="https://github.com/cfanatic/p2p-netchat" target="_blank"><i class="fa fa-home"></i></a>
+                    <a href="https://github.com/cfanatic/p2p-netchat/archive/master.zip" target="_blank"><i
+                        class="fa fa-download"></i></a>
+                    <a href="https://codefanatic.de/git/netchat-p2p.mp4" target="_blank"><i class="fa fa-video"></i></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
           </div>
-          <div class="col-lg">
-          <figure class="effect-ming rounded" onmouseenter="trackGoal(2)">
-            <img src="img/projects/netchat-p2p.png" rel="nofollow" alt="Netchat-P2P: Messenger with peer-to-peer communication and crypto support"/>
-            <figcaption>
-              <h2><a href="https://github.com/cfanatic/p2p-netchat/blob/master/README.md" target="_blank">p2p-<span>Netchat</span></a></h2>
-              <p>Messenger with peer-to-peer communication and crypto support.</p>
-              <p class="icons">
-                <a href="https://github.com/cfanatic/p2p-netchat" target="_blank"><i class="fa fa-home"></i></a>
-                <a href="https://github.com/cfanatic/p2p-netchat/archive/master.zip" target="_blank"><i class="fa fa-download"></i></a>
-                <a href="https://codefanatic.de/git/netchat-p2p.mp4" target="_blank"><i class="fa fa-video"></i></a>
-              </p>
-            </figcaption>			
-          </figure>  
-          </div>
-        </div>
-        <div class="row grid"> 
-          <div class="col-lg">
-          <figure class="effect-ming rounded" onmouseenter="trackGoal(3)">
-            <img src="img/projects/netchat-mysql.png" rel="nofollow" class="rounded" alt="Netchat-MySQL: Messenger with database management and symmetric encryption support"/>
-            <figcaption>
-              <h2><a href="https://github.com/cfanatic/mysql-netchat/blob/master/README.md" target="_blank">MySQL-<span>Netchat</span></a></h2>                    
-              <p>Messenger with database management and symmetric encryption support.</p>
-              <p class="icons">
-                <a href="https://github.com/cfanatic/mysql-netchat" target="_blank"><i class="fa fa-home"></i></a>
-                <a href="https://github.com/cfanatic/mysql-netchat/archive/master.zip" target="_blank"><i class="fa fa-download"></i></a>
-                <a href="#projects" target="_blank"><i class="fa fa-video"></i></a>
-              </p>
-            </figcaption>			
-          </figure> 
-          </div>
-          <div class="col-lg">
-          <figure class="effect-ming rounded" onmouseenter="trackGoal(4)">
-            <img src="img/projects/snake.png" rel="nofollow" alt="Snake: Implementation of the classic mobile game running on the Qt library"/>
-            <figcaption>
-              <h2><a href="https://github.com/cfanatic/qt-snake/blob/master/README.md" target="_blank">Qt-<span>Snake</span></a></h2>
-              <p>Implementation of the classic mobile game running on the Qt library.</p>
-              <p class="icons">
-                <a href="https://github.com/cfanatic/qt-snake" target="_blank"><i class="fa fa-home"></i></a>
-                <a href="https://github.com/cfanatic/qt-snake/archive/master.zip" target="_blank"><i class="fa fa-download"></i></a>
-                <a href="https://codefanatic.de/git/snake.mp4" target="_blank"><i class="fa fa-video"></i></a>
-              </p>
-            </figcaption>
-          </figure> 
-          </div>
-        </div>             
-        </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Background-Contact -->  
-    <div class="bg-image-contact" id="background_contact"></div> 
-
-    <!-- Contact -->
-    <div data-track-content data-content-name="Content" data-content-piece="Contact"></div>
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Let's get in touch.</h2>
-            <h3 class="section-subheading">I am excited to meet new people. Send me a message!</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-centered">
-            <form id="contact-form" method="post" action="mail/contact.php" role="form">
-              <div class="row">
-                <div class="col-md">
-                  <div class="form-group">
-                    <input id="form-name" type="text" name="name" class="form-control" placeholder="Your Name" required="required">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-md">
-                  <div class="form-group">
-                    <input id="form-email" type="email" name="email" class="form-control" placeholder="Your eMail" required="required">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md">
-                  <div class="form-group">
-                    <textarea id="form-message" name="message" class="form-control" placeholder="Hi Arnd!" rows="4" required="required"></textarea>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-button col-md text-center">
-                  <div class="form-success"></div>
-                  <input type="submit" class="btn btn-primary text-uppercase" value="Send message" onclick="trackButton('Contact', 'Message')">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>        
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <ul class="list-inline social-buttons button-hover">
-              <li class="list-inline-item social-button-github">
-                <a href="https://github.com/cfanatic" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-                <p class="social-media social-media-github">GitHub</p>
-              </li>
-              <li class="list-inline-item social-button-linkedin">
-                <a href="https://de.linkedin.com/in/arndgazecki" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <p class="social-media social-media-linkedin">LinkedIn</p>  
-              </li>
-              <li class="list-inline-item social-button-email">
-                <a href="" data-name="arnd" data-domain="codefanatic" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; trackButton('Contact', 'Mail'); return false;">
-                  <i class="fa fa-envelope"></i>
-                </a>
-                <p class="social-media social-media-email">eMail</p>    
-              </li>
-              <li class="list-inline-item social-button-resume">
-                <a href="https://codefanatic.de/git/resume.pdf" rel="nofollow" target="_blank">
-                  <i class="fas fa-user-circle"></i>
-                </a>
-                <p class="social-media social-media-resume text-center">Resumé</p>   
-              </li>                
-            </ul>
+          <div class="row grid">
+            <div class="col-lg">
+              <figure class="effect-ming rounded" onmouseenter="trackGoal(3)">
+                <img src="img/projects/netchat-mysql.png" rel="nofollow" class="rounded"
+                  alt="Netchat-MySQL: Messenger with database management and symmetric encryption support" />
+                <figcaption>
+                  <h2><a href="https://github.com/cfanatic/mysql-netchat/blob/master/README.md"
+                      target="_blank">MySQL-<span>Netchat</span></a></h2>
+                  <p>Messenger with database management and symmetric encryption support.</p>
+                  <p class="icons">
+                    <a href="https://github.com/cfanatic/mysql-netchat" target="_blank"><i class="fa fa-home"></i></a>
+                    <a href="https://github.com/cfanatic/mysql-netchat/archive/master.zip" target="_blank"><i
+                        class="fa fa-download"></i></a>
+                    <a href="#projects" target="_blank"><i class="fa fa-video"></i></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg">
+              <figure class="effect-ming rounded" onmouseenter="trackGoal(4)">
+                <img src="img/projects/snake.png" rel="nofollow"
+                  alt="Snake: Implementation of the classic mobile game running on the Qt library" />
+                <figcaption>
+                  <h2><a href="https://github.com/cfanatic/qt-snake/blob/master/README.md"
+                      target="_blank">Qt-<span>Snake</span></a></h2>
+                  <p>Implementation of the classic mobile game running on the Qt library.</p>
+                  <p class="icons">
+                    <a href="https://github.com/cfanatic/qt-snake" target="_blank"><i class="fa fa-home"></i></a>
+                    <a href="https://github.com/cfanatic/qt-snake/archive/master.zip" target="_blank"><i
+                        class="fa fa-download"></i></a>
+                    <a href="https://codefanatic.de/git/snake.mp4" target="_blank"><i class="fa fa-video"></i></a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" integrity="sha256-tw5/wId1F+4LyUF2ZJnpRoHNXJ66jrK3IGhfq4LhLjY=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha256-WHwIASWxNdKakx7TceUP/BqWQYMcEIfeLNdFMoFfRWA=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.js" integrity="sha256-i3ho1/Codzx8kHNbFzRpiP/VINC8DBPxy9dV1hMBQwU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js" integrity="sha256-ABaSwG2hLCOs+8EKSe3XsIukUcbV1nraP4uzVL+cuS4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Background-Contact -->
+  <div class="bg-image-contact" id="background_contact"></div>
 
-    </body>
+  <!-- Contact -->
+  <div data-track-content data-content-name="Content" data-content-piece="Contact"></div>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Let's get in touch.</h2>
+          <h3 class="section-subheading">I am excited to meet new people. Send me a message!</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-centered">
+          <form id="contact-form" method="post" action="mail/contact.php" role="form">
+            <div class="row">
+              <div class="col-md">
+                <div class="form-group">
+                  <input id="form-name" type="text" name="name" class="form-control" placeholder="Your Name"
+                    required="required">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-group">
+                  <input id="form-email" type="email" name="email" class="form-control" placeholder="Your eMail"
+                    required="required">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <div class="form-group">
+                  <textarea id="form-message" name="message" class="form-control" placeholder="Hi Arnd!" rows="4"
+                    required="required"></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-button col-md text-center">
+                <div class="form-success"></div>
+                <input type="submit" class="btn btn-primary text-uppercase" value="Send message"
+                  onclick="trackButton('Contact', 'Message')">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <ul class="list-inline social-buttons button-hover">
+            <li class="list-inline-item social-button-github">
+              <a href="https://github.com/cfanatic" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <p class="social-media social-media-github">GitHub</p>
+            </li>
+            <li class="list-inline-item social-button-linkedin">
+              <a href="https://de.linkedin.com/in/arndgazecki" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <p class="social-media social-media-linkedin">LinkedIn</p>
+            </li>
+            <li class="list-inline-item social-button-email">
+              <a href="" data-name="arnd" data-domain="codefanatic" data-tld="de"
+                onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; trackButton('Contact', 'Mail'); return false;">
+                <i class="fa fa-envelope"></i>
+              </a>
+              <p class="social-media social-media-email">eMail</p>
+            </li>
+            <li class="list-inline-item social-button-resume">
+              <a href="https://codefanatic.de/git/resume.pdf" rel="nofollow" target="_blank">
+                <i class="fas fa-user-circle"></i>
+              </a>
+              <p class="social-media social-media-resume text-center">Resumé</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"
+    integrity="sha256-tw5/wId1F+4LyUF2ZJnpRoHNXJ66jrK3IGhfq4LhLjY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha256-WHwIASWxNdKakx7TceUP/BqWQYMcEIfeLNdFMoFfRWA=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.js"
+    integrity="sha256-i3ho1/Codzx8kHNbFzRpiP/VINC8DBPxy9dV1hMBQwU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"
+    integrity="sha256-ABaSwG2hLCOs+8EKSe3XsIukUcbV1nraP4uzVL+cuS4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
 
 </html>
