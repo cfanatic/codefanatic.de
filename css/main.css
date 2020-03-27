@@ -58,7 +58,7 @@ section {
 
 section h2.section-heading {
     color: #366cfe;
-    word-spacing: 3px;     
+    word-spacing: 3px;
     font-size: 40px;
     margin-top: 0;
 }
@@ -91,7 +91,7 @@ section h3.section-subheading {
 }
 
 .btn-primary:hover {
-    color: white;    
+    color: white;
     background-color: #1744ff !important;
     border-color: #1744ff !important;
 }
@@ -120,7 +120,7 @@ section h3.section-subheading {
 /* ------------------------------------------------------------------- */
 
 nav {
-    background-color: #212529;    
+    background-color: #212529;
     font-size: 90%;
     font-weight: 700;
     padding: 0.75em 0;
@@ -145,7 +145,7 @@ nav ul li a {
     color: white;
     font-weight: 800;
     text-transform: uppercase;
-    margin: 0 10px;  
+    margin: 0 10px;
 }
 
 nav ul li a,
@@ -404,7 +404,7 @@ section#education .item-desc {
 }
 
 section#education .borderless {
-    color: #6a6a6a;   
+    color: #6a6a6a;
     border: 0 none;
     background-color: transparent;
 }
@@ -572,7 +572,7 @@ section#skills .level {
 section#skills .desc {
     color: #6a6a6a;
     padding-left: 5%;
-    width: 95%;    
+    width: 95%;
     margin-bottom: 25px;
     font-size: 15px;
 }
@@ -663,7 +663,7 @@ section#skills .skill-tag {
 
 section#projects .grid {
 	list-style: none;
-	text-align: center;  
+	text-align: center;
 }
 
 section#projects .grid figure {
@@ -671,7 +671,7 @@ section#projects .grid figure {
 	float: left;
 	overflow: hidden;
     -webkit-filter: drop-shadow(2px 2px 2px #6a6a6a);
-    filter: drop-shadow(2px 2px 2px #6a6a6a);      
+    filter: drop-shadow(2px 2px 2px #6a6a6a);
 }
 
 section#projects .grid figure img {
@@ -809,11 +809,11 @@ section#projects figure.effect-ming:hover img {
 section#projects figure.effect-ming p a {
 	margin: 0 0.5em;
     font-size: 22px;
-	color: #ffffff;   
+	color: #ffffff;
 }
 
 section#projects figure.effect-ming p a:hover {
-	opacity: 0.5;      
+	opacity: 0.5;
     color: #aaafb4;
 }
 
@@ -895,7 +895,7 @@ footer ul.social-buttons li a {
 }
 
 footer ul.social-buttons li a:active, ul.social-buttons li a:hover {
-    background-color: #366cfe;    
+    background-color: #366cfe;
 }
 
 footer ul.social-buttons li p {
@@ -905,7 +905,7 @@ footer ul.social-buttons li p {
 footer ul.social-buttons .social-media {
     font-size: 10px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;   
+    font-family: "Montserrat", sans-serif;
     margin-top: 2px;
     margin-bottom: 0;
 }
@@ -915,7 +915,7 @@ footer ul.social-buttons .social-media {
 @media (min-width: 1025px) {
 
 .bg-image-education {
-    background-image: url("../img/education-bg.jpg");  
+    background-image: url("../img/education-bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -924,7 +924,7 @@ footer ul.social-buttons .social-media {
 }
     
 .bg-image-experience {
-    background-image: url("../img/experience-bg.jpg");  
+    background-image: url("../img/experience-bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -933,7 +933,7 @@ footer ul.social-buttons .social-media {
 }
 
 .bg-image-skills {
-    background-image: url("../img/skills-bg.jpg"); 
+    background-image: url("../img/skills-bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -942,7 +942,7 @@ footer ul.social-buttons .social-media {
 }
 
 .bg-image-projects {
-    background-image: url("../img/projects-bg.jpg"); 
+    background-image: url("../img/projects-bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -951,7 +951,7 @@ footer ul.social-buttons .social-media {
 }
 
 .bg-image-contact {
-    background-image: url("../img/contact-bg.jpg");  
+    background-image: url("../img/contact-bg.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
