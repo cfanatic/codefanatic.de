@@ -1,5 +1,4 @@
 .DS_Store
 keybase.txt
-backup/
-vendor/
-mail/contact.php
+mail/
+misc/
