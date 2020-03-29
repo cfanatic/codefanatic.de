@@ -23,7 +23,7 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     var _paq = _paq || [];
     _paq.push(["setDocumentTitle", "Main"]);
     _paq.push(["setCookieDomain", "*.codefanatic.de"]);
@@ -47,7 +47,7 @@
     function trackGoal(id) {
       _paq.push(['trackGoal', id])
     }
-  </script> -->
+  </script>
   <!-- <noscript><p><img src="https://status.codefanatic.de/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript> -->
 
 </head>
@@ -576,7 +576,8 @@
               </div>
               <div class="col-md">
                 <div class="form-group">
-                  <input id="form-email" type="email" name="email" class="form-control" placeholder="Your eMail"
+                  <input id="form-email" type="email" name="email" style="display: none;">
+                  <input id="form-email" type="email" name="honeypot" class="form-control" placeholder="Your eMail"
                     required="required">
                   <div class="help-block with-errors"></div>
                 </div>
